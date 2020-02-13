@@ -1,0 +1,32 @@
+.hero {
+    height: 250px;
+    border: 2px solid #ffffff;
+    background-image: linear-gradient(270deg, #ff6a56c7 0%, #ffffff 100%);
+    width: 100%;
+    z-index: -1;
+    padding: 36px 0;
+
+    h1,
+    p {
+        margin-left: 220px;
+        color: #000000;
+    }
+
+    h1 {
+        width: 650px;
+        height: 60px;
+        font-family: "Abhaya Libre";
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    p {
+        width: 600px;
+        height: 99px;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+}

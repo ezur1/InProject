@@ -1,0 +1,44 @@
+nav {
+
+    padding: 15px 220px;
+    width:100%;
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    .nav-links {
+        cursor: pointer;
+        width: 606px;
+        height: 27px;
+        color: #222222;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.65px;
+        line-height: 27px;
+    }
+
+    .nav-logo {
+        cursor: pointer;
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #ff6a56;
+            border-radius: 50%;
+            margin-right: 17px;
+        }
+
+        span {
+            color: #222222;
+            font-family: "Abhaya Libre";
+            font-size: 29px;
+            font-weight: 700;
+            line-height: 30px;
+
+            .thin {
+                font-family: "Montserrat";
+                font-size: 20px;
+                font-weight: 200;
+            }
+        }
+    }
+}

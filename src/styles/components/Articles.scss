@@ -1,0 +1,50 @@
+.articles {
+    width: 290px;
+    height: 409px;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    padding: 20px;
+
+    h1 {
+        width: 250px;
+        color: rgba(34, 34, 34, 0.87);
+        font-family: "Abhaya Libre";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 24px;
+        border-bottom: 1px solid rgba(82, 81, 81, 0.6);
+        padding-bottom: 14px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        height: 92px;
+        width: 92px;
+    }
+
+    .info {
+        margin-left: 15px;
+        span {
+            width: 66px;
+            height: 15px;
+            color: #ff6a56;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        h3 {
+            width: 150px;
+            height: 50px;
+            color: rgba(34, 34, 34, 0.87);
+            font-family: "Abhaya Libre Extra Bold";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+    }
+    .content{
+        margin-bottom: 19px;
+    }
+
+}

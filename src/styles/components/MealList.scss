@@ -1,0 +1,80 @@
+.meal {
+    width: rem(680px);
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+    img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 338px;
+        height: 187px;
+    }
+
+    ul {
+        margin-top: 20px;
+        margin-left: 5px;
+
+        li {
+            height: 17px;
+            color: rgba(34, 34, 34, 0.87);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+    }
+
+    .order {
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        width: 44%;
+        button {
+            width: 150px;
+            height: 40px;
+            border-radius: 3px;
+            background-image: linear-gradient(180deg, #ff8373 0%, #ff6a56 100%);
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        span {
+            width: 91px;
+            height: 17px;
+            color: #ff6a56;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    .content {
+        position: absolute;
+        top: 0;
+        left: 358px;
+        margin-top: 18px;
+
+        .logo {
+            height: 38px;
+
+            img {
+                width: 36px;
+                height: 38px;
+            }
+
+            h1 {
+                font-size: 18px;
+                padding-top: 12px;
+                padding-left: 5px;
+                color: #339d48;
+            }
+        }
+    }
+
+}

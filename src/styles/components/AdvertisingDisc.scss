@@ -1,0 +1,33 @@
+.filter-btns {
+    width: 100%;
+    height: 70px;
+    .btns {
+        width: 75%;
+    }
+
+    span {
+        width: 135px;
+        height: 15px;
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    button {
+        cursor: pointer;
+        color: #000000;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 500;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #e2e2e2;
+        &.active{
+            border: 1px solid #f05d61;
+            color: #f05d61;
+            // font-family: "Montserrat";
+            font-weight: 700;
+        }
+    }
+}
